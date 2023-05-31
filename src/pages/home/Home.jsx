@@ -29,6 +29,8 @@ setYemekler(res.data)
 getVeri();
 
 },[])
+console.log(yemekler);
+
 
  return (
   <div>

@@ -7,6 +7,7 @@ import Login from "./pages/login/Login";
 import About from "./pages/about/About";
 import Home from "./pages/home/Home";
 import { Header } from "./pages/login/LoginStyles";
+import RecipeCard from "./pages/home/RecipeCard";
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
 <Route path="/login" element={<Login/>}/>
 <Route path="/home" element={<Home/>}/>
 <Route path="/header" element={<Header/>}/>
+<Route path="/recipecard" element={<RecipeCard/>}/>
+
 
 
 
